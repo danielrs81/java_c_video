@@ -1,7 +1,7 @@
 let num =[5,8,2,9,3]
 num[3] = 6
 num.push(1)
-num.length
+
 num.sort()
  
 
@@ -14,8 +14,8 @@ console.log(`O primeiro vetor é ${num[0]}`)
 
 /*
 for(let pos=0; pos<num.length; pos++){
-    console.log(bum[pos])
-}
+    console.log(num[pos])
+}9
 */
 
 let pos = num.indexOf(9)
