@@ -18,10 +18,11 @@ for(let pos=0; pos<num.length; pos++){
 }9
 */
 
-let pos = num.indexOf(9)
+let pos = num.indexOf(8)
 
 if (pos == -1) {
     console.log(`O número não está na lista: ${num}`)
 } else {
     console.log(`O valor  está na posição ${pos}`)
 }
+

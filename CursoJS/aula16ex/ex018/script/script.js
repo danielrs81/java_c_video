@@ -13,8 +13,8 @@ function isNumero(n) {
     }
 }
 
-
-function inLista(n, 1) {
+// assistir aula 15 para entender o abaixo
+function inLista(n, l) {
     if (l.indexOf(Number(n)) != -1) {
         return true
     } else {
@@ -33,5 +33,18 @@ function adicionar() {
     } else {
         window.alert('Valor inválido ou já encontrado na lista.')
     }
+    num.value = ""
+    num.focus()
+}
 
+
+function finalizar() {
+    if (valores.length == 0) {
+        window.alert('Adicione valores antes de finalizar')
+    } else {
+        let tot = valores.length
+        res.innerHTML = ""
+        res.innerHTML += `<p>Ao todo, temos ${tot} número cadastrados.</p>`
+    }
+    
 }
