@@ -19,3 +19,5 @@ for(let pos in valores) {
 }
 console.log(`${valores.indexOf(7)}`)
 
+let num = 8
+num **= 2
